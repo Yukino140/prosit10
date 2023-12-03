@@ -51,5 +51,6 @@ public class DepartementHashSet implements IDepartement<Departement>{
         d.displayDepartement();
         TreeSet<Departement> sortedDepartments = d.trierDepartementById();
         sortedDepartments.forEach(System.out::println);
+       
     }
 }
